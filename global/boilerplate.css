@@ -1,0 +1,61 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+  /* height: auto; */
+  display: block;
+}
+
+/* ----- COLORS ----- */
+:root {
+  --color-pure-white: #ffffff;
+  --color-cream: #f2eae2;
+  --color-aurometal-saurus: #6c7289;
+  --color-deep-aquamarine: #3d8168;
+  --color-deep-aquamarine-hover: #1a4032;
+  --color-gunmetal: #1c232b;
+}
+
+/* ----- TYPOGRAPHY -----*/
+.fs-1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500; /* medium*/
+  font-size: 12px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: var(--color-aurometal-saurus);
+}
+.fs-2 {
+  font-family: "Fraunces", serif;
+  font-weight: 700; /* bold */
+  font-size: 2rem; /* 32 px */
+  line-height: 2rem; /* 32 px */
+}
+.fs-3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500; /* medium */
+  font-size: 14px;
+  line-height: 23px;
+  color: var(--color-aurometal-saurus);
+}
+.fs-4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500; /* medium */
+  font-size: 13px;
+  line-height: 23px;
+  color: var(--color-aurometal-saurus);
+  text-decoration: line-through;
+}
+.fs-5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700; /* bold */
+  font-size: 14px;
+  color: var(--color-pure-white);
+}
